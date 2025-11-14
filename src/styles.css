@@ -65,3 +65,16 @@ footer {
     font-size: 14px;
     color: #7f8c8d;
 }
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.all-cities {
+    text-decoration: none;
+    color: #2c3e50;
+}
+.all-cities:hover {
+    text-decoration: underline;
+}
