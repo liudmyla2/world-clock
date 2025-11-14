@@ -7,28 +7,30 @@ body {
 
 .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 60px auto;
     padding: 20px;
     background-color: #7b95ae;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.cities {
+.city {
     background-color: #ffffff;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 6px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;;
-    align-items: center;
+    display: flex;
     justify-content: space-between;
 
 }
 
 .date {
-    font-size: 14px;
+    font-size: 18px;
     color: #7f8c8d;
+    
+
+
 }
 
 .time {
