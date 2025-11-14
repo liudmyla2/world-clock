@@ -15,7 +15,7 @@ losAngelesTimeElement.innerHTML = losAngelesTime.format(
 let lionElement = document.querySelector("#lion");
 let lionDateElement = lionElement.querySelector(".date");
 let lionTimeElement = lionElement.querySelector(".time");
-let lionTime = moment().tz("Frnace/Lion");
+let lionTime = moment().tz("Europe/Lion");
 lionDateElement.innerHTML = lionTime.format("MMMM Do YYYY");
 lionTimeElement.innerHTML = lionTime.format(
   "h:mm:ss [<small>]A[</small>]"
@@ -25,7 +25,7 @@ lionTimeElement.innerHTML = lionTime.format(
 let warsawElement = document.querySelector("#warsaw");
 let warsawDateElement = warsawElement.querySelector(".date");
 let warsawTimeElement = warsawElement.querySelector(".time");
-let warsawTime = moment().tz("Frnace/Lion");
+let warsawTime = moment().tz("Europe/Warsaw");
 warsawDateElement.innerHTML = warsawTime.format("MMMM Do YYYY");
     warsawTimeElement.innerHTML = warsawTime.format("h:mm:ss [<small>]A[</small>]");
 }
